@@ -1,0 +1,61 @@
+.row > div {
+  display: inline-block;
+}
+
+.simon-button {
+  width: 10em;
+  height: 10em;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px 1px #595959;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #009900;
+  border-top-left-radius: 7em;
+  border-bottom-right-radius: 7em;
+}
+
+.red {
+  background-color: #ff0000;
+  border-top-right-radius: 7em;
+  border-bottom-left-radius: 7em;
+}
+
+.yellow {
+  background-color: #ffff00;
+  border-top-right-radius: 7em;
+  border-bottom-left-radius: 7em;
+}
+
+.blue {
+  background-color: #1a1aff;
+  border-top-left-radius: 7em;
+  border-bottom-right-radius: 7em;
+}
+
+#count {
+  position: absolute;
+  background-color: #ff0000;
+  left: 7.5em;
+  top: 8em;
+  border: 2px solid black;
+  border-radius: 3em;
+  width: 1.5em;
+  text-align: center;
+  font-size: 14pt;
+  font-weight: bold;
+  padding: 1em;
+  box-shadow: 1px 1px 1px 1px #595959;
+}
+
+#start-button {
+  border: 2px solid black;
+  width: 5em;
+  text-align: center;
+  background-color: #009900;
+  margin-left: 2.3em;
+  box-shadow: 1px 1px 1px 1px #595959;
+  cursor: pointer;
+}
