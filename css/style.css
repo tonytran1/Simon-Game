@@ -1,3 +1,7 @@
+body {
+  font-family: arial;
+}
+
 .row > div {
   display: inline-block;
 }
@@ -6,7 +10,7 @@
   width: 10em;
   height: 10em;
   border: 2px solid black;
-  box-shadow: 1px 1px 1px 1px #595959;
+  box-shadow: 1px 1px 1px 1px #262626;
   margin: 1px;
   cursor: pointer;
 }
@@ -14,48 +18,78 @@
 .green {
   background-color: #009900;
   border-top-left-radius: 7em;
-  border-bottom-right-radius: 7em;
+  /*border-bottom-right-radius: 7em;*/
 }
 
 .red {
   background-color: #ff0000;
   border-top-right-radius: 7em;
-  border-bottom-left-radius: 7em;
+  /*border-bottom-left-radius: 7em;*/
 }
 
 .yellow {
   background-color: #ffff00;
-  border-top-right-radius: 7em;
+  /*border-top-right-radius: 7em;*/
   border-bottom-left-radius: 7em;
 }
 
 .blue {
   background-color: #1a1aff;
-  border-top-left-radius: 7em;
+  /*border-top-left-radius: 7em;*/
   border-bottom-right-radius: 7em;
+}
+
+#game {
+  padding: 1em;
+  border: 2px solid #404040;
+  background-color: #0d0d0d;
+  width: 25em;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px #333333;
+  border-radius: 2.5em;
 }
 
 #count {
   position: absolute;
-  background-color: #ff0000;
-  left: 7.5em;
+  background-color: #000;
+  color: #fff;
+  left: 9.5em;
   top: 8em;
-  border: 2px solid black;
-  border-radius: 3em;
-  width: 1.5em;
+  border-radius: 5em;
+  width: 3em;
+  height: 3em;
   text-align: center;
   font-size: 14pt;
-  font-weight: bold;
   padding: 1em;
-  box-shadow: 1px 1px 1px 1px #595959;
+  box-shadow: 1px 1px 1px 1px #000;
+}
+
+#count > p {
+  text-align: center;
 }
 
 #start-button {
-  border: 2px solid black;
+  border: 1px solid #262626;
   width: 5em;
   text-align: center;
-  background-color: #009900;
-  margin-left: 2.3em;
-  box-shadow: 1px 1px 1px 1px #595959;
+  border: 2px solid #fff;
+  background-color: #000;
+  color: #fff;
+  margin-left: 3.5em;
+  box-shadow: 1px 1px 1px 1px #262626;
   cursor: pointer;
+}
+
+#start-button:hover {
+  background-color: #1a1a1a;
+}
+
+#status {
+  position: absolute;
+  border: 5px solid red;
+  border-radius: 5em;
+  width: 1px;
+  margin-top: -0.5em;
+  margin-left: 1.25em;
+  text-align: center;
 }
