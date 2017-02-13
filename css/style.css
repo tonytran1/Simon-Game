@@ -18,24 +18,20 @@ body {
 .green {
   background-color: #009900;
   border-top-left-radius: 7em;
-  /*border-bottom-right-radius: 7em;*/
 }
 
 .red {
   background-color: #ff0000;
   border-top-right-radius: 7em;
-  /*border-bottom-left-radius: 7em;*/
 }
 
 .yellow {
   background-color: #ffff00;
-  /*border-top-right-radius: 7em;*/
   border-bottom-left-radius: 7em;
 }
 
 .blue {
   background-color: #1a1aff;
-  /*border-top-left-radius: 7em;*/
   border-bottom-right-radius: 7em;
 }
 
