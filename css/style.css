@@ -1,3 +1,12 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
 body {
   font-family: arial;
 }
@@ -36,6 +45,7 @@ body {
 }
 
 #game {
+  position: relative;
   padding: 1em;
   border: 2px solid #404040;
   background-color: #0d0d0d;
@@ -49,8 +59,8 @@ body {
   position: absolute;
   background-color: #000;
   color: #fff;
-  left: 9.5em;
-  top: 8em;
+  left: 9.05em;
+  top: 7.5em;
   border-radius: 5em;
   width: 3em;
   height: 3em;
